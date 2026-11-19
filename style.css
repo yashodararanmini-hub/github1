@@ -1,0 +1,92 @@
+style.css
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f3f6f8;
+  color: #243746;
+}
+header {
+  padding: 48px 20px;
+  text-align: center;
+  background-color: #153448;
+  color: white;
+}
+.tagline {
+  color: #9de0d6;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h1 {
+  margin: 12px 0;
+  font-size: 40px;
+}
+nav {
+  margin-top: 24px;
+}
+nav a {
+  display: inline-block;
+  margin: 4px 12px;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+section {
+  margin-bottom: 20px;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #dde5eb;
+  border-radius: 12px;
+}
+h2 {
+  margin-top: 0;
+  color: #153448;
+}
+a {
+  color: #076c77;
+}
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #076c77;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #05515a;
+}
+#join-message {
+  color: #076c77;
+  font-weight: bold;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #526471;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  header {
+    padding: 32px 16px;
+  }
+  section {
+    padding: 20px;
+  }
+}
